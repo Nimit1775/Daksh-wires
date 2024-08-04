@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header className='bg-black shadow-md'>
+    <header className='bg-black shadow-md p-3'>
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <Link to='/'>
           <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
@@ -22,7 +22,7 @@ export default function Header() {
             <li className='hidden sm:inline text-white hover:underline'>Products</li>
           </Link>
           <Link to='/clients'>
-            <li className='hidden sm:inline text-white hover:underline'>Our Clients</li>
+            <li className='hidden sm:inline text-white hover:underline'> Clients</li>
           </Link>
           <Link to='/gallery'>
             <li className='hidden sm:inline text-white hover:underline'>Infrastructure</li>
