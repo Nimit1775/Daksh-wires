@@ -4,7 +4,7 @@ import backgroundImage from '../assets/bg.jpeg';
 export default function Home() {
   return (
     <div
-      className="relative bg-cover bg-center h-[60vh]"
+      className="relative bg-cover bg-center h-[75vh]"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">

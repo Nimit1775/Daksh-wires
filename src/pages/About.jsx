@@ -4,7 +4,7 @@ import dw1 from '../assets/dw1.webp';
 export default function About() {
   return (
     <div className='flex flex-col justify-center items-center h-screen p-10'>
-      <h1 className='text-6xl font-bold text-gray-800 mb-6'>About Us</h1>
+      <h1 className='text-6xl font-serif text-gray-800 mb-6'>About Us</h1>
       <div className='flex flex-row items-center'>
         <img
           src={dw1}
