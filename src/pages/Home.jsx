@@ -12,7 +12,7 @@ export default function Home() {
       >
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-extrabold text-center px-4 py-2 md:px-6 md:py-4 shadow-lg">
-            Enduring Quality , Unbeatable Strength !
+            Enduring Quality , Unbeatable Strength 
           </h1>
         </div>
       </div>
