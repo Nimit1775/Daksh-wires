@@ -40,4 +40,4 @@ export default function About() {
       </div>
     </div>
   );
-}
+}//fix
