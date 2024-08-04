@@ -35,43 +35,43 @@ export default function Home() {
         <h1 className='text-slate-900 text-4xl md:text-5xl lg:text-6xl font-bold text-center px-4 py-2 md:px-6 md:py-4 shadow-lg'> 
           Company Factsheet
         </h1>
-        <div className="flex flex-wrap justify-center py-8">
-          <div className="flex items-center space-x-4 m-4">
+        <div className="flex flex-wrap justify-center items-center">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 flex items-center space-x-4">
             <FaBalanceScale className="text-5xl text-slate-700" />
             <div>
-              <h2 className="text-2xl font-bold">Legal</h2>
-              <p className="text-lg">Compliance and Certifications</p>
+              <h2 className="text-2xl font-bold">Legal Status of Firm</h2>
+              <p className="text-lg">Private Limited Company </p>
             </div>
           </div>
-          <div className="flex items-center space-x-4 m-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 flex items-center space-x-4">
             <FaGavel className="text-5xl text-slate-700" />
             <div>
-              <h2 className="text-2xl font-bold">Legal Support</h2>
-              <p className="text-lg">Expert Legal Advisory</p>
+              <h2 className="text-2xl font-bold">GST No.</h2>
+              <p className="text-lg">19AAACQ2101K1ZO</p>
             </div>
           </div>
-          <div className="flex items-center space-x-4 m-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 flex items-center space-x-4">
             <FaIndustry className="text-5xl text-slate-700" />
             <div>
-              <h2 className="text-2xl font-bold">Factory</h2>
-              <p className="text-lg">State-of-the-art Facilities</p>
+              <h2 className="text-2xl font-bold">Nature of Business</h2>
+              <p className="text-lg">Manufacturing</p>
             </div>
           </div>
-          <div className="flex items-center space-x-4 m-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 flex items-center space-x-4">
             <FaChartLine className="text-5xl text-slate-700" />
             <div>
               <h2 className="text-2xl font-bold">Turnover</h2>
-              <p className="text-lg">$5 Million</p>
+              <p className="text-lg">25-30 cr</p>
             </div>
           </div>
-          <div className="flex items-center space-x-4 m-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 flex items-center space-x-4">
             <FaCalendarAlt className="text-5xl text-slate-700" />
             <div>
               <h2 className="text-2xl font-bold">Established</h2>
-              <p className="text-lg">1995</p>
+              <p className="text-lg">2018</p>
             </div>
           </div>
-          <div className="flex items-center space-x-4 m-4">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4 flex items-center space-x-4">
             <FaUsers className="text-5xl text-slate-700" />
             <div>
               <h2 className="text-2xl font-bold">Employees</h2>
