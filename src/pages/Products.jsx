@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import pr1 from '../assets/pr-1.jpeg'
 export default function Products() {
+   useEffect(()=>{
+      const img = new Image()  ;
+      img.src = pr1;
+
+   } , []) ;
   return (
      <div 
      className="relative bg-cover bg-center h-[85vh]"
