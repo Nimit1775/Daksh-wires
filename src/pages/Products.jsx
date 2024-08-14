@@ -87,7 +87,7 @@ export default function Products() {
   return (
     <div>
       <div 
-        className="relative bg-cover bg-center h-[85vh]"
+        className="relative bg-cover bg-center h-[100vh]"
         style={{backgroundImage: `url(${pr1})`}}
       >
         <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-50'>
