@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import backgroundImage from '../assets/bg.jpeg';
+import backgroundImage from '../assets/bg.webp';
 import { FaBalanceScale, FaGavel, FaIndustry, FaChartLine, FaCalendarAlt, FaUsers } from 'react-icons/fa';
 
 export default function Home() {
